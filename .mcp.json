@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "runpod": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/index.mjs"],
+      "env": { "RUNPOD_API_KEY": "${RUNPOD_API_KEY}" }
+    }
+  }
+}

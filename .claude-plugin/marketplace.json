@@ -1,0 +1,11 @@
+{
+  "name": "runpod-tools",
+  "owner": { "name": "hieuit095" },
+  "plugins": [
+    {
+      "name": "runpod",
+      "source": "./",
+      "description": "Manage RunPod from Claude Code: pods, serverless endpoints/jobs, templates, volumes, billing, GraphQL, fine-tuning workflow."
+    }
+  ]
+}

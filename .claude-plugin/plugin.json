@@ -1,0 +1,7 @@
+{
+  "name": "runpod",
+  "version": "0.1.0",
+  "description": "Manage RunPod from Claude Code: pods (GPU/CPU VMs), serverless endpoints and jobs, templates, network volumes, registry auth, billing, plus GraphQL passthrough for fine-tuning workflows.",
+  "author": { "name": "hieuit095" },
+  "keywords": ["runpod", "gpu", "serverless", "fine-tuning", "training", "mcp"]
+}
