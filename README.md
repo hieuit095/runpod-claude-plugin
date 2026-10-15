@@ -24,3 +24,6 @@ Requires Node 18+; no npm install needed.
 ## Notes
 - Fine-tuning has no dedicated RunPod API; it's done by launching a training container on a pod.
 - Creating pods/endpoints bills immediately; the skills instruct Claude to confirm cost first.
+
+## License
+MIT — see [LICENSE](LICENSE).
