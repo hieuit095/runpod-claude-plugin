@@ -3,11 +3,17 @@
 Control RunPod from Claude Code: pods, serverless endpoints/jobs, templates, network volumes, registry auth, billing, and raw GraphQL.
 
 ## Install
-```bash
-export RUNPOD_API_KEY=...        # https://www.runpod.io/console/user/settings
-claude --plugin-dir /home/hieuit095/runpod-plugin
 ```
-(or add the folder as a local marketplace / `/plugin` install.) Requires Node 18+; no npm install needed.
+/plugin marketplace add hieuit095/runpod-claude-plugin
+/plugin install runpod@runpod-tools
+```
+One step: `/plugin install runpod --marketplace hieuit095/runpod-claude-plugin`
+
+Then set your key **before** starting Claude Code (https://www.runpod.io/console/user/settings):
+```bash
+export RUNPOD_API_KEY=...
+```
+Requires Node 18+; no npm install needed.
 
 ## What you get
 - **40 MCP tools**: 30 REST tools generated from RunPod's OpenAPI spec (`spec/openapi.json`, refresh with
